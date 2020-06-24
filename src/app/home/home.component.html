@@ -1,0 +1,65 @@
+
+<div class="container" id="pageTop">
+    <br>
+    <h2> Angular Form Model </h2>
+    <hr>
+    
+    <div class="jumbotron" style="padding: 20px 0 10px 30px;">
+        <h3>Template Driven Form</h3>
+        <ul style="list-style-type: none;">
+            <li *ngFor = 'let temp of template'>
+            {{temp}}
+            </li>
+        </ul>
+        
+        <h4>Points to remeber:</h4>
+        <ul style="list-style-type: none;">
+            <li *ngFor = 'let point of tPoints'>
+            {{point}}
+            </li>
+        </ul>
+
+        <h5>Steps to implement TDF:</h5>
+            <ul style="list-style-type: none;">
+                <li *ngFor = 'let step of tSteps'>
+                    {{step}}
+                </li>
+            </ul>
+        
+    </div>
+
+    <div class="jumbotron" style="padding: 20px 0 10px 30px; margin-top: 50px;">
+        <h3>Reative Model Form</h3>
+        <ul style="list-style-type: none;">
+            <li *ngFor = 'let temp of reactive'>
+            {{temp}}
+            </li>
+        </ul>
+        <h4>Points to remeber:</h4>
+            <ul style="list-style-type: none;">
+                <li *ngFor = 'let point of rPoints'>
+                    {{point}}
+                </li>
+            </ul>   
+        <h5>Steps to implement RMF:</h5>
+            <ul style="list-style-type: none;">
+                <li *ngFor = 'let step of rSteps'>
+                    {{step}}
+                </li>
+            </ul>
+        
+    </div>
+
+    <div class="jumbotron" style="padding: 20px 0 10px 30px; margin-top: 50px;">
+        <h3>Custom Validator</h3>
+        <h4>Points to remeber:</h4>
+            <ul style="list-style-type: none;">
+                <li *ngFor = 'let point of vPoints'>
+                    {{point}}
+                </li>
+            </ul>   
+        
+  
+    </div>
+  </div>
+  

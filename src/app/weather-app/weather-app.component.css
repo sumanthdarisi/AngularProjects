@@ -1,0 +1,44 @@
+.tempclass{
+    margin-top: 50px;
+}
+
+
+.tempclass1{
+    margin: auto;
+    width: 350px;
+    min-width: 100px;
+    height: 400px;
+    border-radius: 4%;  
+
+}
+
+.cityname{
+    padding-top: 2%;
+    text-align: center;
+    color: white;
+}
+
+.actTemp{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.details{
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+    opacity: 0.7;
+}
+
+
+.icon{
+    font-size: 100px;
+    margin: 0 auto;
+}
+
+
+svg{
+    vertical-align: unset;
+}
+
